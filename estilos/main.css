@@ -19,7 +19,11 @@ body {
 .contenedor {
   background-color: rgba(0, 0, 0, .8);
   width: 60%;
+<<<<<<< HEAD
   height: 70%;
+=======
+  height: 80%;
+>>>>>>> aa6b0d6def16c73bb8fd390c0c655eb030fae801
   margin: 10% auto;
 }
 
@@ -34,7 +38,11 @@ a {
 
 .mis-datos {
   width: 100%;
+<<<<<<< HEAD
   height: 30%;
+=======
+  height: 25%;
+>>>>>>> aa6b0d6def16c73bb8fd390c0c655eb030fae801
   text-align: center;
   color: white;
 }
