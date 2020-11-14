@@ -1,0 +1,253 @@
+/*Esta hoja de estilo pertenece al archivo pagina-dos.html*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+body {
+  font-family: "Open Sans";
+  color: #262626;
+}
+
+.contenedor {
+  background-color: rgba(0, 0, 0, .2);
+  height: 100vh;
+  width: 100vw;
+  overflow: auto;
+  position: relative;
+}
+
+.caja{
+  position: absolute;
+}
+
+#header {
+  width: 100%;
+  top: 0;
+}
+
+.titulo {
+  font-size: 160%;
+  text-align: center;
+}
+
+#foto {
+  top: 6%;
+  left: 0;
+  right: 0;
+}
+
+.principal {
+  width: 100%;
+  height: auto;
+}
+
+#descripcion {
+  top: 135%;
+}
+
+.autor {
+  font-size: 150%;
+  font-weight: bold;
+  text-align: center;
+  border-top: 2px solid black;
+  padding: 5% 0;
+}
+
+.nombre {
+  text-align: center;
+  font-size: 200%;
+}
+
+.carrera,
+.ubicacion {
+  margin-top: 5%;
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 120%;
+}
+
+.carrera {
+  margin: 0 5%;
+}
+
+.detalles {
+  display: block;
+  text-decoration: none;
+  background-color: #262626;
+  color: white;
+  padding: 5%;
+  margin: 5% auto;
+  width: 40%;
+  height: auto;
+  text-align: center;
+}
+
+.saludo {
+  font-size: 150%;
+  margin-left: 20%;
+}
+
+.sobre-mi {
+  font-size: 130%;
+  text-align: justify;
+  margin: 0 10%;
+}
+
+.trabajo, .educacion {
+  padding-left: 10%
+}
+
+.trabajo {
+  font-size: 115%;
+  border-top: 0.25em solid black;
+  margin-top: 5%;
+  padding-top: 5%;
+}
+
+.educacion {
+  font-size: 110%;
+  margin-top: 5%;
+  border-top: 0.25em solid black;
+  padding-top: 5%;
+}
+
+.contacto {
+  font-size: 200%;
+  text-align: center;
+  font-weight: bold;
+}
+
+.links {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+i {
+  color: #262626;
+}
+
+li {
+  margin: 15% 5%;
+}
+
+@media screen and (min-width: 500px) {
+  #foto {
+    top: 8%;
+    left: 0;
+    right: 0;
+  }
+  
+  #descripcion {
+    top: 240%;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .contenedor {
+    background-color: #262525;  
+  }
+  
+  #header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    color: white;
+    background-color: #262626;
+    z-index: 3;
+  }
+  
+  #foto {
+    position: fixed;
+    top: 5%;
+    height: auto;
+    width: 27.5%;
+  }
+  
+  #descripcion {
+    top: 5%;
+    right: 0;
+    width: 72.5%;
+    color: white;
+    background-color: #262626;
+  }
+  
+  i {
+    color: white;
+  }
+  
+  .titulo {
+    text-align: left;
+    margin-left: 8%;
+  }
+  
+  .detalles {
+    background-color: gray;
+    color: #333;
+    font-size: 180%;
+    padding: 2%;
+    box-shadow: 15px 15px 15px 3px white;
+    transition: all 2s ease-in-out;
+  }
+  
+  .detalles:hover {
+    background-color: white;
+    box-shadow: 15px 15px 15px 3px #aaaaaa;
+    transform: scale(1.2);
+  }
+  
+  .saludo {
+    margin-bottom: 3%;
+    margin-top: 5%;
+    font-size: 225%;
+  }
+  
+  .trabajo {
+    border-top: 0.3em solid gray;
+    padding-left: 13%;
+    font-size: 200%;
+  }
+
+  .educacion {
+    border-top: 0.3em solid gray;
+    padding-left: 13%;
+    font-size: 225%;
+  }
+  
+  .carrera {
+    font-size: 290%;
+  }
+  
+  .nombre {
+    font-size: 550%;
+  }
+  
+  li {
+    transition: all 1s ease-in-out;
+  }
+  
+  li:hover {
+    transform: scale(1.5);
+  }
+  
+  .autor {
+    border-top: 2px solid white;
+  }
+  
+  .sobre-mi {
+    width: 75%;
+    margin: 0 auto;
+    letter-spacing: -.003em;
+    line-height: 1.58;
+    font-size: 250%;
+  }
+  
+  .contacto {
+    font-size: 300%;
+  }
+}
