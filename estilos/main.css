@@ -19,7 +19,7 @@ body {
 .contenedor {
   background-color: rgba(0, 0, 0, .8);
   width: 50%;
-  height: auto;
+  height: 80%;
   margin: 10% auto;
 }
 
@@ -68,13 +68,13 @@ h3 {
   
   .mi-foto  {
     float: left;
-    width: 35%;
+    width: 40%;
     height: 100%;
   }
   
   .mis-datos {
     float: left;
-    width: 65%;
+    width: 60%;
     height: 100%;
   }
   
