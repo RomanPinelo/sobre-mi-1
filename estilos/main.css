@@ -92,10 +92,52 @@ h3 {
   
   h3 {
     font-size: 150%;
+  }  
+}
+
+@media screen and (min-width: 1000px) {
+  .contenedor {
+    width: 70%;
+    height: 60%;
+    filter: grayscale(80%);
+    transition: all 1s ease-in-out;
   }
   
+  .mi-foto  {
+    float: left;
+    width: 35%;
+    height: 100%;
+  }
   
+  .mis-datos {
+    float: left;
+    width: 65%;
+    height: 100%;
+    color: gray;
+    transition: all 1s ease-in-out;
+  }
   
+ h1 {
+    font-size: 400%;
+    margin-top: 10%;
+  }
   
+  h2 {
+    font-size: 250%;
+    margin-top: 5%;
+  }
   
+  h3 {
+    font-size: 200%;
+    margin-top: 5%;
+  }
+  
+  .contenedor:hover {
+    filter: grayscale(10%);
+    transform: scale(1.2);
+  }
+  
+  .mis-datos:hover {
+    color: white;
+  }
 }
