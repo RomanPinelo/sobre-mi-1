@@ -18,12 +18,9 @@ body {
 
 .contenedor {
   background-color: rgba(0, 0, 0, .8);
-  width: 60%;
-<<<<<<< HEAD
+  width: 50%;
   height: 70%;
-=======
   height: 80%;
->>>>>>> aa6b0d6def16c73bb8fd390c0c655eb030fae801
   margin: 10% auto;
 }
 
@@ -38,11 +35,8 @@ a {
 
 .mis-datos {
   width: 100%;
-<<<<<<< HEAD
   height: 30%;
-=======
   height: 25%;
->>>>>>> aa6b0d6def16c73bb8fd390c0c655eb030fae801
   text-align: center;
   color: white;
 }
@@ -64,6 +58,10 @@ h2 {
   font-size: 125%;
 }
 
+h3 {
+  font-size: 90%;
+}
+
 @media screen and (min-width: 500px) {
   .contenedor {
     width: 80%;
@@ -72,25 +70,35 @@ h2 {
   
   .mi-foto  {
     float: left;
-    width: 45%;
+    width: 35%;
     height: 100%;
   }
   
   .mis-datos {
     float: left;
-    width: 55%;
+    width: 65%;
     height: 100%;
   }
   
-  h1, h2, h3 {
-    margin: 20% auto;
+  h1 {
+    margin: 15% auto;
   }
   
+  h2, h3 {
+    margin: 10% auto;
+  }
   
+  h1 {
+    font-size: 225%;
+  }
+    
+  h2 {
+    font-size: 200%;
+  }
   
-  
-  
-  
+  h3 {
+    font-size: 150%;
+  }
   
   
   
