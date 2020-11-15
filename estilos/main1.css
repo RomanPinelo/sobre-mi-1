@@ -47,7 +47,7 @@ body {
 }
 
 #descripcion {
-  top: 90%;
+  top: 135%;
 }
 
 .autor {
@@ -138,13 +138,13 @@ li {
 
 @media screen and (min-width: 500px) {
   #foto {
-    top: 8%;
+    top: 10%;
     left: 0;
     right: 0;
   }
   
   #descripcion {
-    top: 100%;
+    top: 200%;
   }
 }
 
