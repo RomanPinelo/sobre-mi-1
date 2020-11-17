@@ -1,0 +1,178 @@
+/*Esta hoja de estilo pertence al archivo pagina-cuatro.html*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+body {
+  font-family: "Open Sans";
+  color: #262626;
+}
+
+#contenedor {
+  background-color: rgba(0, 0, 0, .2);
+  height: 100vh;
+  width: 100vw;
+  overflow: auto;
+}
+
+#menu {
+  background-color: #364147;
+  width: 100%;
+  height: auto;
+}
+
+#titulo {
+  color: rgba(256, 256, 256, .7);
+  font-size: 130%;
+  padding-top: 5%;
+  padding-left: 5%;
+}
+
+#ingeniero {
+  color: white;
+}
+
+#persona, #docente, #musico {
+  color: #01b19c;
+  display: block;
+  padding: 3%;
+  width: 100%;
+  height: 33.33%;
+  border-top: 2px solid white;
+}
+
+#opciones {
+  text-align: center;
+  margin-top: 3%;
+}
+
+li {
+  font-size: 120%;
+}
+
+#datos {
+  width: 100%;
+  height: auto;
+}
+
+.perfil {
+  display: block;
+  height: 400px;
+  width: 300px;
+  border-radius: 50%;
+  border: 2px solid #262626;
+  margin: 5% auto;
+}
+
+.nombre {
+  font-size: 300%;
+  font-weight: bold;
+  text-align: center;
+}
+
+#redes {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+#face1, #git1, #mail1 {
+  color: #333;
+}
+
+#facebook, #github, #mail {
+  margin: 5% 5%;
+}
+
+h2 {
+  font-size: 200%;
+  margin-left: 15%;
+  margin-bottom: 3%;
+}
+
+.det {
+  width: 80%;
+  margin: 0 auto;
+  font-size: 150%;
+  letter-spacing: -.003em;
+  line-height: 1.58;
+  text-align: justify;
+}
+
+@media screen and (min-width: 1000px) {
+  #menu {
+    width: 100%;
+    height: 10%;
+    margin: 0;
+  }
+  
+  #opciones {
+    margin: 0;
+  }
+  
+  #titulo {
+    padding: 1.5%;
+    width: 20%;
+    height: 100%;
+    float: left;
+    font-size: 125%;
+  }
+  
+  #persona, #ingeniero, #docente, #musico {
+    display: inline-block;
+    width: 20%;
+    height: 100;
+    float: left;
+    border: 0;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    padding: 1.5%;
+  }
+  
+  #opciones {
+    list-style: none;
+  }
+  
+  #datos {
+    background-color: #262626EE;
+    height: 90%;
+    width: 30%;
+    float: left;
+  }
+  
+  #detalles {
+    height: 90%;
+    width: 70%;
+    float: left;
+    overflow: auto;
+  }
+  
+  .nombre {
+    font-size: 200%;
+    color: white;
+  }
+  
+  #face1, #git1, #mail1 {
+    font-size: 380%;
+    transition: all 1.5s ease-in-out;
+    color: darkslategray;
+  }
+  
+  #face1:hover, #git1:hover, #mail1:hover {
+    transform: scale(1.2);
+    color: white;
+  }
+  
+  .perfil {
+    border: 2px solid white ;
+  }
+  
+  h2 {
+    margin-top: 5%;
+  }
+}
